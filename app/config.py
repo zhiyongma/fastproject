@@ -35,11 +35,11 @@ class DevelopmentConfig(Config):
 
     SQLALCHEMY_ECHO = False
 
-    MYSQL_USER = ''
+    MYSQL_USER = 'pony'
     MYSQL_PASS = ''
-    MYSQL_HOST = ''
+    MYSQL_HOST = 'rm-2zee5e5ytvd02o9e9no.mysql.rds.aliyuncs.com'
     MYSQL_PORT = '3306'
-    MYSQL_DB = ''
+    MYSQL_DB = 'bookcrawl'
 
     SQLALCHEMY_DATABASE_URI = 'mysql+pymysql://%s:%s@%s:%s/%s' % (MYSQL_USER, MYSQL_PASS, MYSQL_HOST, MYSQL_PORT, MYSQL_DB)
 

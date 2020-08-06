@@ -16,3 +16,4 @@ yarn-error.log*
 *.log
 *.__pycache__
 *.pyc
+.vscode

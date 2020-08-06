@@ -20,10 +20,10 @@ import json
 class SMS:
     STATUS_SUCCESS = '000000'
 
-    AccountSid = 'aaf98f89539b228f0153a71787de15a9'
-    AccountToken = '87283bc4d6674b489fa70c75ebb0f2e7'
-    AppId = '8a216da865c27c8d0165c6643d6e014b'
-    templateid = '328194'
+    AccountSid = ''
+    AccountToken = ''
+    AppId = ''
+    templateid = ''
 
     ServerIP = 'app.cloopen.com'
     ServerPort = '8883'

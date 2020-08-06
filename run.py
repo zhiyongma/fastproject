@@ -20,7 +20,7 @@ app = create_app()
 # 将日志保存到文件中
 formatter = logging.Formatter(
     "[%(asctime)s.%(msecs)03d] %(levelname)s [%(thread)d] - %(message)s", "%Y-%m-%d %H:%M:%S")
-handler = RotatingFileHandler('/data/log/abc.log', backupCount=0)
+handler = RotatingFileHandler('/data/log/fastapi.log', backupCount=0)
 logging.getLogger().setLevel(logging.NOTSET)
 fastapi_logger.addHandler(handler)
 handler.setFormatter(formatter)
